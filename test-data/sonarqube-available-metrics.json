@@ -1,0 +1,1016 @@
+{
+	"metrics": [{
+		"id": "AX1Oawkj9hMjVP_7LBJ0",
+		"key": "new_technical_debt",
+		"type": "WORK_DUR",
+		"name": "Added Technical Debt",
+		"description": "Added technical debt",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawke9hMjVP_7LBJb",
+		"key": "blocker_violations",
+		"type": "INT",
+		"name": "Blocker Issues",
+		"description": "Blocker issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJt",
+		"key": "bugs",
+		"type": "INT",
+		"name": "Bugs",
+		"description": "Bugs",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkM9hMjVP_7LBIq",
+		"key": "classes",
+		"type": "INT",
+		"name": "Classes",
+		"description": "Classes",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkh9hMjVP_7LBJr",
+		"key": "code_smells",
+		"type": "INT",
+		"name": "Code Smells",
+		"description": "Code Smells",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI9",
+		"key": "cognitive_complexity",
+		"type": "INT",
+		"name": "Cognitive Complexity",
+		"description": "Cognitive complexity",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIx",
+		"key": "comment_lines",
+		"type": "INT",
+		"name": "Comment Lines",
+		"description": "Number of comment lines",
+		"domain": "Size",
+		"direction": 1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkO9hMjVP_7LBIy",
+		"key": "comment_lines_density",
+		"type": "PERCENT",
+		"name": "Comments (%)",
+		"description": "Comments balanced by ncloc + comment lines",
+		"domain": "Size",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKN",
+		"key": "comment_lines_data",
+		"type": "DATA",
+		"name": "comment_lines_data",
+		"domain": "Size",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI4",
+		"key": "class_complexity",
+		"type": "FLOAT",
+		"name": "Complexity / Class",
+		"description": "Complexity average by class",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkW9hMjVP_7LBI2",
+		"key": "file_complexity",
+		"type": "FLOAT",
+		"name": "Complexity / File",
+		"description": "Complexity average by file",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI6",
+		"key": "function_complexity",
+		"type": "FLOAT",
+		"name": "Complexity / Function",
+		"description": "Complexity average by function",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI3",
+		"key": "complexity_in_classes",
+		"type": "INT",
+		"name": "Complexity in Classes",
+		"description": "Cyclomatic complexity in classes",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI5",
+		"key": "complexity_in_functions",
+		"type": "INT",
+		"name": "Complexity in Functions",
+		"description": "Cyclomatic complexity in functions",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkc9hMjVP_7LBJQ",
+		"key": "branch_coverage",
+		"type": "PERCENT",
+		"name": "Condition Coverage",
+		"description": "Condition coverage",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkc9hMjVP_7LBJR",
+		"key": "new_branch_coverage",
+		"type": "PERCENT",
+		"name": "Condition Coverage on New Code",
+		"description": "Condition coverage of new/changed code",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkb9hMjVP_7LBJM",
+		"key": "conditions_to_cover",
+		"type": "INT",
+		"name": "Conditions to Cover",
+		"description": "Conditions to cover",
+		"domain": "Coverage",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkb9hMjVP_7LBJN",
+		"key": "new_conditions_to_cover",
+		"type": "INT",
+		"name": "Conditions to Cover on New Code",
+		"description": "Conditions to cover on new code",
+		"domain": "Coverage",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkh9hMjVP_7LBJq",
+		"key": "confirmed_issues",
+		"type": "INT",
+		"name": "Confirmed Issues",
+		"description": "Confirmed issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1OawkZ9hMjVP_7LBJE",
+		"key": "coverage",
+		"type": "PERCENT",
+		"name": "Coverage",
+		"description": "Coverage by tests",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkZ9hMjVP_7LBJF",
+		"key": "new_coverage",
+		"type": "PERCENT",
+		"name": "Coverage on New Code",
+		"description": "Coverage of new/changed code",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawke9hMjVP_7LBJc",
+		"key": "critical_violations",
+		"type": "INT",
+		"name": "Critical Issues",
+		"description": "Critical issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1OawkW9hMjVP_7LBI1",
+		"key": "complexity",
+		"type": "INT",
+		"name": "Cyclomatic Complexity",
+		"description": "Cyclomatic complexity",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKS",
+		"key": "last_commit_date",
+		"type": "MILLISEC",
+		"name": "Date of Last Commit",
+		"domain": "SCM",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkj9hMjVP_7LBJ3",
+		"key": "development_cost",
+		"type": "STRING",
+		"name": "Development Cost",
+		"description": "Development cost",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkj9hMjVP_7LBJ4",
+		"key": "new_development_cost",
+		"type": "FLOAT",
+		"name": "Development Cost on New Code",
+		"description": "Development cost on new code",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIs",
+		"key": "directories",
+		"type": "INT",
+		"name": "Directories",
+		"description": "Directories",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJU",
+		"key": "duplicated_blocks",
+		"type": "INT",
+		"name": "Duplicated Blocks",
+		"description": "Duplicated blocks",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJV",
+		"key": "new_duplicated_blocks",
+		"type": "INT",
+		"name": "Duplicated Blocks on New Code",
+		"description": "Duplicated blocks on new code",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJW",
+		"key": "duplicated_files",
+		"type": "INT",
+		"name": "Duplicated Files",
+		"description": "Duplicated files",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkc9hMjVP_7LBJS",
+		"key": "duplicated_lines",
+		"type": "INT",
+		"name": "Duplicated Lines",
+		"description": "Duplicated lines",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJX",
+		"key": "duplicated_lines_density",
+		"type": "PERCENT",
+		"name": "Duplicated Lines (%)",
+		"description": "Duplicated lines balanced by statements",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJY",
+		"key": "new_duplicated_lines_density",
+		"type": "PERCENT",
+		"name": "Duplicated Lines (%) on New Code",
+		"description": "Duplicated lines (%) on new code balanced by statements",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkc9hMjVP_7LBJT",
+		"key": "new_duplicated_lines",
+		"type": "INT",
+		"name": "Duplicated Lines on New Code",
+		"description": "Duplicated Lines on New Code",
+		"domain": "Duplications",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJZ",
+		"key": "duplications_data",
+		"type": "DATA",
+		"name": "Duplication Details",
+		"description": "Duplications details",
+		"domain": "Duplications",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBJ7",
+		"key": "effort_to_reach_maintainability_rating_a",
+		"type": "WORK_DUR",
+		"name": "Effort to Reach Maintainability Rating A",
+		"description": "Effort to reach maintainability rating A",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKO",
+		"key": "executable_lines_data",
+		"type": "DATA",
+		"name": "executable_lines_data",
+		"domain": "Coverage",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkg9hMjVP_7LBJm",
+		"key": "false_positive_issues",
+		"type": "INT",
+		"name": "False Positive Issues",
+		"description": "False positive issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI8",
+		"key": "file_complexity_distribution",
+		"type": "DISTRIB",
+		"name": "File Distribution / Complexity",
+		"description": "Files distribution /complexity",
+		"domain": "Complexity",
+		"direction": 0,
+		"qualitative": true,
+		"hidden": true
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIr",
+		"key": "files",
+		"type": "INT",
+		"name": "Files",
+		"description": "Number of files",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkX9hMjVP_7LBI7",
+		"key": "function_complexity_distribution",
+		"type": "DISTRIB",
+		"name": "Function Distribution / Complexity",
+		"description": "Functions distribution /complexity",
+		"domain": "Complexity",
+		"direction": 0,
+		"qualitative": true,
+		"hidden": true
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIt",
+		"key": "functions",
+		"type": "INT",
+		"name": "Functions",
+		"description": "Functions",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkI9hMjVP_7LBIl",
+		"key": "generated_lines",
+		"type": "INT",
+		"name": "Generated Lines",
+		"description": "Number of generated lines",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkM9hMjVP_7LBIp",
+		"key": "generated_ncloc",
+		"type": "INT",
+		"name": "Generated Lines of Code",
+		"description": "Generated non Commenting Lines of Code",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkf9hMjVP_7LBJf",
+		"key": "info_violations",
+		"type": "INT",
+		"name": "Info Issues",
+		"description": "Info issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkd9hMjVP_7LBJa",
+		"key": "violations",
+		"type": "INT",
+		"name": "Issues",
+		"description": "Issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawka9hMjVP_7LBJK",
+		"key": "line_coverage",
+		"type": "PERCENT",
+		"name": "Line Coverage",
+		"description": "Line coverage",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawka9hMjVP_7LBJL",
+		"key": "new_line_coverage",
+		"type": "PERCENT",
+		"name": "Line Coverage on New Code",
+		"description": "Line coverage of added/changed code",
+		"domain": "Coverage",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkG9hMjVP_7LBIk",
+		"key": "lines",
+		"type": "INT",
+		"name": "Lines",
+		"description": "Lines",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkL9hMjVP_7LBIm",
+		"key": "ncloc",
+		"type": "INT",
+		"name": "Lines of Code",
+		"description": "Non commenting lines of code",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkM9hMjVP_7LBIo",
+		"key": "ncloc_language_distribution",
+		"type": "DATA",
+		"name": "Lines of Code Per Language",
+		"description": "Non Commenting Lines of Code Distributed By Language",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkZ9hMjVP_7LBJG",
+		"key": "lines_to_cover",
+		"type": "INT",
+		"name": "Lines to Cover",
+		"description": "Lines to cover",
+		"domain": "Coverage",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawka9hMjVP_7LBJH",
+		"key": "new_lines_to_cover",
+		"type": "INT",
+		"name": "Lines to Cover on New Code",
+		"description": "Lines to cover on new code",
+		"domain": "Coverage",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkj9hMjVP_7LBJ1",
+		"key": "sqale_rating",
+		"type": "RATING",
+		"name": "Maintainability Rating",
+		"description": "A-to-E rating based on the technical debt ratio",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkj9hMjVP_7LBJ2",
+		"key": "new_maintainability_rating",
+		"type": "RATING",
+		"name": "Maintainability Rating on New Code",
+		"description": "Maintainability rating on new code",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawke9hMjVP_7LBJd",
+		"key": "major_violations",
+		"type": "INT",
+		"name": "Major Issues",
+		"description": "Major issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawke9hMjVP_7LBJe",
+		"key": "minor_violations",
+		"type": "INT",
+		"name": "Minor Issues",
+		"description": "Minor issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKM",
+		"key": "ncloc_data",
+		"type": "DATA",
+		"name": "ncloc_data",
+		"domain": "Size",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkf9hMjVP_7LBJh",
+		"key": "new_blocker_violations",
+		"type": "INT",
+		"name": "New Blocker Issues",
+		"description": "New Blocker issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJu",
+		"key": "new_bugs",
+		"type": "INT",
+		"name": "New Bugs",
+		"description": "New Bugs",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJs",
+		"key": "new_code_smells",
+		"type": "INT",
+		"name": "New Code Smells",
+		"description": "New Code Smells",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkg9hMjVP_7LBJi",
+		"key": "new_critical_violations",
+		"type": "INT",
+		"name": "New Critical Issues",
+		"description": "New Critical issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkg9hMjVP_7LBJl",
+		"key": "new_info_violations",
+		"type": "INT",
+		"name": "New Info Issues",
+		"description": "New Info issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkf9hMjVP_7LBJg",
+		"key": "new_violations",
+		"type": "INT",
+		"name": "New Issues",
+		"description": "New issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1OawkL9hMjVP_7LBIn",
+		"key": "new_lines",
+		"type": "INT",
+		"name": "New Lines",
+		"description": "New lines",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkg9hMjVP_7LBJj",
+		"key": "new_major_violations",
+		"type": "INT",
+		"name": "New Major Issues",
+		"description": "New Major issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkg9hMjVP_7LBJk",
+		"key": "new_minor_violations",
+		"type": "INT",
+		"name": "New Minor Issues",
+		"description": "New Minor issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJy",
+		"key": "new_security_hotspots",
+		"type": "INT",
+		"name": "New Security Hotspots",
+		"description": "New Security Hotspots",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJw",
+		"key": "new_vulnerabilities",
+		"type": "INT",
+		"name": "New Vulnerabilities",
+		"description": "New Vulnerabilities",
+		"domain": "Security",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKT",
+		"key": "unanalyzed_c",
+		"type": "INT",
+		"name": "Number of unanalyzed c files",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKU",
+		"key": "unanalyzed_cpp",
+		"type": "INT",
+		"name": "Number of unanalyzed c++ files",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkh9hMjVP_7LBJo",
+		"key": "open_issues",
+		"type": "INT",
+		"name": "Open Issues",
+		"description": "Open issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKR",
+		"key": "quality_profiles",
+		"type": "DATA",
+		"name": "Profiles",
+		"description": "Details of quality profiles used during analysis",
+		"domain": "General",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIw",
+		"key": "projects",
+		"type": "INT",
+		"name": "Project branches",
+		"description": "Number of project branches",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIv",
+		"key": "public_api",
+		"type": "INT",
+		"name": "Public API",
+		"description": "Public API",
+		"domain": "Documentation",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1OawkP9hMjVP_7LBIz",
+		"key": "public_documented_api_density",
+		"type": "PERCENT",
+		"name": "Public Documented API (%)",
+		"description": "Public documented classes and functions balanced by ncloc",
+		"domain": "Documentation",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": true,
+		"decimalScale": 1
+	}, {
+		"id": "AX1OawkW9hMjVP_7LBI0",
+		"key": "public_undocumented_api",
+		"type": "INT",
+		"name": "Public Undocumented API",
+		"description": "Public undocumented classes, functions and variables",
+		"domain": "Documentation",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKQ",
+		"key": "quality_gate_details",
+		"type": "DATA",
+		"name": "Quality Gate Details",
+		"description": "The project detailed status with regard to its quality gate",
+		"domain": "General",
+		"direction": 0,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKP",
+		"key": "alert_status",
+		"type": "LEVEL",
+		"name": "Quality Gate Status",
+		"description": "The project status with regard to its quality gate.",
+		"domain": "Releasability",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBJ-",
+		"key": "reliability_rating",
+		"type": "RATING",
+		"name": "Reliability Rating",
+		"description": "Reliability rating",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBJ_",
+		"key": "new_reliability_rating",
+		"type": "RATING",
+		"name": "Reliability Rating on New Code",
+		"description": "Reliability rating on new code",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBJ8",
+		"key": "reliability_remediation_effort",
+		"type": "WORK_DUR",
+		"name": "Reliability Remediation Effort",
+		"description": "Reliability Remediation Effort",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBJ9",
+		"key": "new_reliability_remediation_effort",
+		"type": "WORK_DUR",
+		"name": "Reliability Remediation Effort on New Code",
+		"description": "Reliability remediation effort on new code",
+		"domain": "Reliability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkh9hMjVP_7LBJp",
+		"key": "reopened_issues",
+		"type": "INT",
+		"name": "Reopened Issues",
+		"description": "Reopened issues",
+		"domain": "Issues",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawki9hMjVP_7LBJx",
+		"key": "security_hotspots",
+		"type": "INT",
+		"name": "Security Hotspots",
+		"description": "Security Hotspots",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKG",
+		"key": "security_hotspots_reviewed",
+		"type": "PERCENT",
+		"name": "Security Hotspots Reviewed",
+		"description": "Percentage of Security Hotspots Reviewed",
+		"domain": "SecurityReview",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKH",
+		"key": "new_security_hotspots_reviewed",
+		"type": "PERCENT",
+		"name": "Security Hotspots Reviewed on New Code",
+		"description": "Percentage of Security Hotspots Reviewed on New Code",
+		"domain": "SecurityReview",
+		"direction": 1,
+		"qualitative": true,
+		"hidden": false,
+		"decimalScale": 1
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBKC",
+		"key": "security_rating",
+		"type": "RATING",
+		"name": "Security Rating",
+		"description": "Security rating",
+		"domain": "Security",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKD",
+		"key": "new_security_rating",
+		"type": "RATING",
+		"name": "Security Rating on New Code",
+		"description": "Security rating on new code",
+		"domain": "Security",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBKA",
+		"key": "security_remediation_effort",
+		"type": "WORK_DUR",
+		"name": "Security Remediation Effort",
+		"description": "Security remediation effort",
+		"domain": "Security",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkk9hMjVP_7LBKB",
+		"key": "new_security_remediation_effort",
+		"type": "WORK_DUR",
+		"name": "Security Remediation Effort on New Code",
+		"description": "Security remediation effort on new code",
+		"domain": "Security",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKE",
+		"key": "security_review_rating",
+		"type": "RATING",
+		"name": "Security Review Rating",
+		"description": "Security Review Rating",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKF",
+		"key": "new_security_review_rating",
+		"type": "RATING",
+		"name": "Security Review Rating on New Code",
+		"description": "Security Review Rating on New Code",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKI",
+		"key": "security_hotspots_reviewed_status",
+		"type": "INT",
+		"name": "Security Review Reviewed Status",
+		"description": "Security Review Reviewed Status",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKK",
+		"key": "new_security_hotspots_reviewed_status",
+		"type": "INT",
+		"name": "Security Review Reviewed Status on New Code",
+		"description": "Security Review Reviewed Status on New Code",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkl9hMjVP_7LBKJ",
+		"key": "security_hotspots_to_review_status",
+		"type": "INT",
+		"name": "Security Review To Review Status",
+		"description": "Security Review To Review Status",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1Oawkm9hMjVP_7LBKL",
+		"key": "new_security_hotspots_to_review_status",
+		"type": "INT",
+		"name": "Security Review To Review Status on New Code",
+		"description": "Security Review To Review Status on New Code",
+		"domain": "SecurityReview",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": true
+	}, {
+		"id": "AX1OawkY9hMjVP_7LBJB",
+		"key": "skipped_tests",
+		"type": "INT",
+		"name": "Skipped Unit Tests",
+		"description": "Number of skipped unit tests",
+		"domain": "Coverage",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}, {
+		"id": "AX1OawkN9hMjVP_7LBIu",
+		"key": "statements",
+		"type": "INT",
+		"name": "Statements",
+		"description": "Number of statements",
+		"domain": "Size",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}, {
+		"id": "AX1Oawkj9hMjVP_7LBJz",
+		"key": "sqale_index",
+		"type": "WORK_DUR",
+		"name": "Technical Debt",
+		"description": "Total effort (in hours) to fix all the issues on the component and therefore to comply to all the requirements.",
+		"domain": "Maintainability",
+		"direction": -1,
+		"qualitative": true,
+		"hidden": false
+	}],
+	"total": 113,
+	"p": 1,
+	"ps": 100
+}

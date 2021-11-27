@@ -1,0 +1,82 @@
+[{
+    "id": "AX1OawkL9hMjVP_7LBIm",
+    "key": "ncloc",
+    "type": "INT",
+    "name": "Lines of Code",
+    "description": "Non commenting lines of code",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkG9hMjVP_7LBIk",
+    "key": "lines",
+    "type": "INT",
+    "name": "Lines",
+    "description": "Lines",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkN9hMjVP_7LBIu",
+    "key": "statements",
+    "type": "INT",
+    "name": "Statements",
+    "description": "Number of statements",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkN9hMjVP_7LBIt",
+    "key": "functions",
+    "type": "INT",
+    "name": "Functions",
+    "description": "Functions",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkM9hMjVP_7LBIq",
+    "key": "classes",
+    "type": "INT",
+    "name": "Classes",
+    "description": "Classes",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkN9hMjVP_7LBIr",
+    "key": "files",
+    "type": "INT",
+    "name": "Files",
+    "description": "Number of files",
+    "domain": "Size",
+    "direction": -1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkN9hMjVP_7LBIx",
+    "key": "comment_lines",
+    "type": "INT",
+    "name": "Comment Lines",
+    "description": "Number of comment lines",
+    "domain": "Size",
+    "direction": 1,
+    "qualitative": false,
+    "hidden": false
+}, {
+    "id": "AX1OawkO9hMjVP_7LBIy",
+    "key": "comment_lines_density",
+    "type": "PERCENT",
+    "name": "Comments (%)",
+    "description": "Comments balanced by ncloc + comment lines",
+    "domain": "Size",
+    "direction": 1,
+    "qualitative": true,
+    "hidden": false,
+    "decimalScale": 1
+}]

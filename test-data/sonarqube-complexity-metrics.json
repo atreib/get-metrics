@@ -1,0 +1,23 @@
+[
+    {
+		"id": "AX1OawkX9hMjVP_7LBI9",
+		"key": "cognitive_complexity",
+		"type": "INT",
+		"name": "Cognitive Complexity",
+		"description": "Cognitive complexity",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+    }, {
+		"id": "AX1OawkW9hMjVP_7LBI1",
+		"key": "complexity",
+		"type": "INT",
+		"name": "Cyclomatic Complexity",
+		"description": "Cyclomatic complexity",
+		"domain": "Complexity",
+		"direction": -1,
+		"qualitative": false,
+		"hidden": false
+	}
+]

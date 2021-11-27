@@ -1,0 +1,28 @@
+{
+  "name": "get-metrics",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "create": "node create.js",
+    "continue": "node index.js",
+    "create:axios": "yarn run create axios/axios axios.original.csv",
+    "continue:axios": "yarn run continue axios/axios axios.fixed.csv",
+    "create:pm2": "yarn run create Unitech/pm2 pm2.original.csv",
+    "continue:pm2": "yarn run continue Unitech/pm2 pm2.fixed.csv",
+    "create:tailwind": "yarn run create tailwindlabs/tailwindcss tailwind.original.csv",
+    "continue:tailwind": "yarn run continue tailwindlabs/tailwindcss tailwind.fixed.csv",
+    "create:atom": "yarn run create atom/atom atom.original.csv",
+    "create:lodash": "yarn run create lodash/lodash lodash.original.csv",
+    "create:moment": "yarn run create moment/moment moment.original.csv",
+    "create:react": "yarn run create facebook/react react.original.csv",
+    "generate:axios": "yarn start axios/axios axios.fixed.csv",
+    "generate:pm2": "yarn start Unitech/pm2 pm2.fixed.csv"
+  },
+  "dependencies": {
+    "axios": "^0.24.0",
+    "csv-parser": "^3.0.0",
+    "uuid": "^8.3.2"
+  }
+}

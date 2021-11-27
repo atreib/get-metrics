@@ -1,0 +1,5 @@
+c7329fefc890050edd51e40e469a154d0117fc55,EXTRACT,lib/adapters/http.js:20,lib/adapters/http.js:25
+df6d3ce6cf10432b7920d8c3ac0efb7254989bc4,RENAME,test/unit/adapters/http.js:251,test/unit/adapters/http.js:251
+0e2f4f14171ccd161e85478c7b1aba61c3b431a2,MOVE,lib/axios.js:20,lib/core/Axios.js:29
+0e2f4f14171ccd161e85478c7b1aba61c3b431a2,MOVE,lib/axios.js:104,lib/core/Axios.js:91
+0e2f4f14171ccd161e85478c7b1aba61c3b431a2,MOVE,lib/axios.js:115,lib/core/Axios.js:101
